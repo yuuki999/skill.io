@@ -85,20 +85,38 @@ header img {
   margin: 0 auto 20px;
 }
 
-// SNSリンクスタイル
+// サイドバーの各セクションの共通スタイル
+.profile-info,
+.career-info,
 .social-links {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
+.profile-info ul,
+.career-info ul,
 .social-links ul {
   list-style: none;
   padding-left: 0;
   margin-top: 10px;
 }
 
+.profile-info li,
+.career-info li,
 .social-links li {
   margin-bottom: 8px;
+}
+
+// メールアドレスのスタイル
+.profile-info a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.profile-info a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
 }
 
 .social-links a {

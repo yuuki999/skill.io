@@ -16,10 +16,29 @@
       <header>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-        
+
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
+
+        <!-- 基本情報 -->
+        <div class="profile-info">
+          <p><strong>基本情報</strong></p>
+          <ul>
+            <li>埼玉県さいたま市在住</li>
+            <li>Email: <a href="mailto:work.yuuki.itoi@gmail.com">work.yuuki.itoi@gmail.com</a></li>
+          </ul>
+        </div>
+
+        <!-- 職歴 -->
+        <div class="career-info">
+          <p><strong>職歴</strong></p>
+          <ul>
+            <li>2022年～現在：株式会社ZEN PLACE</li>
+            <li>2019年～2022年：株式会社アーヴァイン・システムズ</li>
+            <li>2016年～2019年：中和印刷株式会社</li>
+          </ul>
+        </div>
 
         <!-- SNSリンク -->
         <div class="social-links">
