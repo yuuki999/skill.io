@@ -9,9 +9,9 @@ title: スキルシート
 
 | 言語 | 経験年数 | 詳細 |
 |:--------:|:--------:|:------------------------------:|
-| PHP | 6年 | - |
+| PHP | 6年 | API開発、バックエンド処理 |
 | JavaScript/TypeScript | 5年 | フロントエンド開発、React、Next.js、Vue.js |
-| HTML/CSS/SCSS | 6年 | レスポンシブデザイン、モダンUI実装 |
+| HTML/CSS/SCSS | 6年 | レスポンシブデザイン |
 | Dart | 1年 | Flutterによるモバイルアプリ開発 |
 | Ruby | 1年 | Ruby on Rails、Webクローリング |
 | Node.js | 2年 | サーバーサイドJavaScript開発 |
@@ -23,7 +23,7 @@ title: スキルシート
 |:--------:|:--------:|:------------------------------:|
 | MySQL | 6年 | 設計、チューニング、運用、パフォーマンス改善 |
 | PostgreSQL | 2年 | 基本操作、クエリ作成、Supabase経由利用 |
-| Vercel | 0.5年 | サーバーレスでのDB運用 |
+| Pinecone | - | ベクトルデータベース、個人開発での利用 |
 
 ### インフラ・ツール
 
@@ -35,6 +35,8 @@ title: スキルシート
 | CMS | 0.5年 | Movable Type |
 | テストツール | - | playwright, jest, PHPUnit, Selenium, Bun |
 | 負荷試験 | 0.5年 | Apache Bench, LoadView |
+| Notion | - | 日常的な業務でのタスク管理及び、APIを使用したタスクの一括エクセル出力機能の作成 |
+| Obsidian | - | 業務のメモで活用 |
 
 ### フレームワーク・ライブラリ
 
@@ -43,22 +45,40 @@ title: スキルシート
 | バックエンド | Laravel | 5年 |
 | バックエンド | Ruby on Rails | 1年 |
 | フロントエンド | jQuery | 3年 |
-| フロントエンド | React | 2年 |
-| フロントエンド | Next.js | 2年 |
+| フロントエンド | React | 3年 |
+| フロントエンド | Next.js | 3年 |
 | フロントエンド | Vue.js | 1年 |
+| UI/CSS | TailwindCSS | 2年 |
+| UIコンポーネント | shadcn/ui | 2年 |
 | モバイル | Flutter | 1年 |
 | BaaS | Supabase | 2年 |
 
+### AIツール
+
+| カテゴリ |
+|:--------:|
+| ChatGPT |
+| Codex |
+| Claude Code (最近Maxプランに課金しました) |
+| Windsurf |
+| Cursor |
+| Claude Code Action |
+| Notebook LM |
+| Gemini Ultra Veo3 |
+
 ## 強み・特徴
 
-- 多様な技術スタックでの開発経験（Web、モバイル、AI連携）
 - レガシーシステムのリニューアル・移行経験
 - B2B、B2C両方のWebサービス開発経験
+- モバイルアプリ開発経験
 - フロントエンド・バックエンドの両方に対応可能
 - パフォーマンス改善、負荷試験の実施経験
 - リーダーとしてのチームマネジメント経験
 - 外部システムとの連携・API設計・実装経験
 - テスト自動化・CI/CD構築経験
+- MastraによるAIエージェント、ワークフローの構築（POC済み、将来的に案件で導入予定）
+- 各種AIツールの使用、最新技術のキャッチアップ
+- 個人開発でVertex AI Searchの検証POC
 
 # 職務経歴
 
