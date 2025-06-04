@@ -6,3 +6,4 @@ description: スキルシート・職務経歴書
 
 # サイドバーの設定
 show_downloads: false  # ダウンロードボタンを非表示
+logo: /images/profile.jpeg  # プロフィール画像
