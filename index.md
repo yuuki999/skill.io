@@ -62,6 +62,109 @@ title: スキルシート
 
 # 職務経歴
 
+### 2025年6月 ~ 現在｜　会員用Mypageのリニューアル、LINE公式アカウント運用の内製化計画
+
+**期間**: - 
+**役職**: リーダー
+**規模**: ?名
+
+**業務内容**:  
+・LINE公式アカウント、LIFEアプリ、LINEミニアプリの運用調査
+・AIエージェント開発フレームワークMastraのPOC、ゆくゆくは設計実装担当
+・会員用Mypageのリニューアルのための要件定義、仕様調査
+
+**使用技術**:
+- **言語**: PHP, TypeScript
+- **OS/DB**: PostgreSQL
+- **FW/MW**: Supabase, Laravel API, NextJS, React, Mastra
+- **UI/CSS**: TailwindCSS, shadcn/ui
+- **テスト**: PHPUnit, Playwright, Bun
+
+**担当工程**: 要件定義、基本設計、詳細設計、実装、テスト、運用（予定）
+
+---
+
+### 2025年5月〜6月｜　ピラティス、ヨガの体験予約のLINE, SMS通知機能の実装
+
+**期間**: 1ヶ月  
+**役職**: メンバー
+**規模**: 7名
+
+**業務内容**:  
+・LINE, SMS通知機能の設計・実装
+・Redisを活用した短縮URL生成APIの設計・実装
+・外部ベンダーとの技術調整とAPI仕様の整合
+・リリース作業
+・Claude CodeのPOC、活用、ナレッジ共有
+
+**使用技術**:
+- **言語**: PHP, TypeScript
+- **OS/DB**: PostgreSQL, Redis
+- **FW/MW**: Supabase, Laravel API
+- **テスト**: PHPUnit
+
+**担当工程**: 詳細設計、実装、テスト
+
+---
+
+### 2025年4月〜5月｜　広告画像・動画の管理用画面作成
+
+**期間**: 1ヶ月  
+**役職**: リーダー
+**規模**: 1名
+
+**業務内容**:  
+・Github ActionによるPHPUnitの自動テスト提案、構築
+・PHPunitの並列テストによるパフォーマンス改善
+・管理用画面の設計、実装
+・Supabase StorageのPOC、構築
+・外部会社専用のログインアカウントの設計、SupabaseのRLS設計、実装
+・BunのテストPOC、導入
+・協力会社との連携
+・リリース作業
+・社内向けMCPサーバーの構築POC
+・WindsurfとsupabaseMCPを連携し開発効率化、ナレッジ共有
+
+**使用技術**:
+- **言語**: TypeScript
+- **OS/DB**: PostgreSQL
+- **FW/MW**: Supabase, Supabase Storage, NextJS, React
+- **UI/CSS**: TailwindCSS, shadcn/ui
+- **テスト**: Bun, Playwright, PHPUnit
+
+**担当工程**: 要件定義、基本設計、詳細設計、実装、テスト
+
+---
+
+### 2025年4月〜5月｜　ピラティス体験前電話の管理機能リニューアル
+
+**期間**: 1ヶ月  
+**役職**: リーダー
+**規模**: 2名
+
+**業務内容**:  
+・既存機能のキャッチアップ(Flutter WebをNextJSに移行)
+・画面設計
+・レスポンシブデザイン
+・追加機能の設計、実装
+・Playwrightのテスト提案, 導入
+・PHPUnitのテスト提案、導入
+・Cursor, Windsurfのルール整備、共有。使い方のナレッジ共有
+・Supabase Storageによる期限付きURLの発行、画像表示
+・shadcn/uiのPOC、導入
+・リリース計画の立案
+
+**使用技術**:
+- **言語**: PHP, TypeScript
+- **OS/DB**: PostgreSQL
+- **FW/MW**: Supabase, Supabase Storage, Laravel API, NextJS, React
+- **UI/CSS**: TailwindCSS, shadcn/ui
+- **テスト**: Jest, Playwright, PHPUnit
+
+**担当工程**: 要件定義、基本設計、詳細設計、実装、テスト
+
+---
+
 ### 2024年8月〜2025年3月｜フィギュア販売ECサイト
 
 **期間**: 8ヶ月  
