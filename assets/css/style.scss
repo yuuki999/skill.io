@@ -78,10 +78,11 @@ th {
 // プロフィール画像スタイル
 header img {
   border-radius: 50%;
-  max-width: 150px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
   display: block;
   margin: 0 auto 20px;
-  border: 3px solid var(--primary-color);
 }
 
 // SNSリンクスタイル
