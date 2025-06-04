@@ -15,7 +15,7 @@
 
 // ページの横幅を増やし、左右の余白を狭める
 .wrapper {
-  width: 1200px;
+  width: 1300px;
   margin: 0 auto;
 }
 
@@ -26,11 +26,11 @@ section {
 }
 
 header {
-  width: 250px;
+  width: 350px;
 }
 
 // レスポンシブ対応
-@media print, screen and (max-width: 1200px) {
+@media print, screen and (max-width: 1300px) {
   .wrapper {
     width: auto;
     margin: 0;
