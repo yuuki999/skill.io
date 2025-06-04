@@ -33,7 +33,7 @@ header {
 @media print, screen and (max-width: 1300px) {
   .wrapper {
     width: auto;
-    margin: 0;
+    margin: 0 15px;
   }
   
   section, header {
@@ -41,6 +41,15 @@ header {
     position: static;
     width: auto;
   }
+}
+
+// リンクのレスポンシブ対応
+.social-links a,
+.profile-info a {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  display: inline-block;
+  max-width: 100%;
 }
 
 // テーブルスタイルの改善
