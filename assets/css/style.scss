@@ -7,7 +7,7 @@
 :root {
   --primary-color: #4a86e8;
   --secondary-color: #333333;
-  --background-color: #f9f9f9;
+  --background-color: #ffffff;
   --text-color: #333333;
   --link-color: #0366d6;
   --border-color: #e1e4e8;
@@ -73,6 +73,35 @@ th {
 
 .btn:hover {
   background-color: #3a76d8;
+}
+
+// SNSリンクスタイル
+.social-links {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social-links ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.social-links li {
+  margin-bottom: 8px;
+}
+
+.social-links a {
+  display: inline-block;
+  padding: 5px 0;
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
 }
 
 // 本文スタイル
