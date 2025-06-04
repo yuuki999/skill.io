@@ -42,16 +42,16 @@ title: スキルシート
 
 | カテゴリ | 技術 | 経験年数 |
 |:--------:|:--------:|:--------:|
-| バックエンド | Laravel | 5年 |
+| フロントエンド・バックエンド | Laravel | 5年 |
 | バックエンド | Ruby on Rails | 1年 |
-| フロントエンド | jQuery | 3年 |
+| フロントエンド・バックエンド | Next.js | 3年 |
 | フロントエンド | React | 3年 |
-| フロントエンド | Next.js | 3年 |
+| フロントエンド | jQuery | 3年 |
 | フロントエンド | Vue.js | 1年 |
 | UI/CSS | TailwindCSS | 2年 |
 | UIコンポーネント | shadcn/ui | 2年 |
-| モバイル | Flutter | 1年 |
 | BaaS | Supabase | 2年 |
+| モバイル | Flutter | 1年 |
 
 ### AIツール
 
