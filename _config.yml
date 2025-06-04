@@ -1,8 +1,7 @@
 theme: jekyll-theme-minimal
-title: スキルページ
+title: スキルシート・職務経歴書
 lang: ja
 encoding: UTF-8
-description: スキルシート・職務経歴書
 
 # サイドバーの設定
 show_downloads: false  # ダウンロードボタンを非表示
