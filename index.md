@@ -37,7 +37,7 @@ title: スキルシート
 | クラウド | 4年 | AWS (EC2, S3, ALB, Lambda, RDS, ECS, API Gateway), Google Cloud, Vercel |
 | バージョン管理 | 6年 | Git |
 | CMS | 0.5年 | Movable Type |
-| テストツール | - | playwright, jest, PHPUnit, Selenium, Bun |
+| テストツール | - | Playwright, Jest, PHPUnit, Selenium, Bun |
 | 負荷試験 | 0.5年 | Apache Bench, LoadView |
 | Notion | - | 日常的な業務でのタスク管理及び、APIを使用したタスクの一括エクセル出力機能の作成 |
 | Obsidian | - | 業務のメモで活用 |
@@ -67,8 +67,8 @@ title: スキルシート
 | Windsurf |
 | Cursor |
 | Claude Code Action |
-| Notebook LM |
-| Gemini Ultra Veo3 |
+| NotebookLM |
+| Gemini Ultra Veo 3 |
 
 ## 強み・特徴
 
@@ -80,9 +80,9 @@ title: スキルシート
 - リーダーとしてのチームマネジメント経験
 - 外部システムとの連携・API設計・実装経験
 - テスト自動化・CI/CD構築経験
-- MastraによるAIエージェント、ワークフローの構築（POC済み、将来的に案件で導入予定）
+- MastraによるAIエージェント、ワークフローの構築
 - 各種AIツールの使用、最新技術のキャッチアップ
-- 個人開発でVertex AI Searchの検証POC
+- 個人開発でVertex AI Searchの検証PoC
 
 <br>
 
@@ -95,18 +95,29 @@ title: スキルシート
 ### 2025年6月 ~ 現在｜　会員用Mypageのリニューアル、LINE公式アカウント運用の内製化計画
 
 **期間**: -  
-**役職**: リーダー  
-**規模**: ?名  
+**役職**: 自社側リーダー  
+**規模**: 5人(外部会社含む)  
 
 **業務内容**:  
-- LINE公式アカウント、LIFEアプリ、LINEミニアプリの運用調査
-- AIエージェント開発フレームワークMastraのPOC、ゆくゆくは設計実装担当
-- 会員用Mypageのリニューアルのための要件定義、仕様調査
+- LINE公式アカウント、LINEミニアプリ構築、審査提出、リリース作業
+- AIエージェント開発フレームワークMastraのPoC実施
+- 会員用Mypageのリニューアルのための要件定義、仕様調査、設計、実装、テスト
+- 旧システムのAPI化、基盤構築
+- タスク管理ツールのRedmineからNotionへの移行作業
+- Vercel Rolling ReleasesのPoC実施
+- Dockerコンテナ環境でのPHP自動テスト環境構築(CI/CD)
+- Next.jsでのデータフェッチングライブラリの選定（useSWRとTanStack Queryの比較PoC実施、useSWRを採用）
+- TailwindCSS v3からv4へのバージョンアップ対応
+- Next.jsミドルウェア基盤実装
+- Cookie、ローカルストレージ周りの基盤実装
+- 旧フロントエンドシステムのVue.jsからNext.jsへの移行
+- 外部協力会社との技術面・スケジュール調整の窓口担当
+- Claude Code並列実行のPoC実施
 
 **使用技術**:
 - **言語**: PHP, TypeScript
 - **OS/DB**: PostgreSQL
-- **FW/MW**: Supabase, Laravel API, NextJS, React, Mastra
+- **FW/MW**: Supabase, Laravel API, Next.js, React, Mastra
 - **UI/CSS**: TailwindCSS, shadcn/ui
 - **テスト**: PHPUnit, Playwright, Bun
 
@@ -125,7 +136,7 @@ title: スキルシート
 - Redisを活用した短縮URL生成APIの設計・実装
 - 外部ベンダーとの技術調整とAPI仕様の整合
 - リリース作業
-- Claude CodeのPOC、活用、ナレッジ共有
+- Claude CodeのPoC、活用、ナレッジ共有
 
 **使用技術**:
 - **言語**: PHP, TypeScript
@@ -144,21 +155,21 @@ title: スキルシート
 **規模**: 1名  
 
 **業務内容**:  
-- Github ActionによるPHPUnitの自動テスト提案、構築
+- GitHub ActionsによるPHPUnitの自動テスト提案、構築
 - PHPUnitの並列テストによるパフォーマンス改善
 - 管理用画面の設計、実装
-- Supabase StorageのPOC、構築
+- Supabase StorageのPoC、構築
 - 外部会社専用のログインアカウントの設計、SupabaseのRLS設計、実装
-- BunのテストPOC、導入
+- BunのテストPoC、導入
 - 協力会社との連携
 - リリース作業
-- 社内向けMCPサーバーの構築POC
-- WindsurfとsupabaseMCPを連携し開発効率化、ナレッジ共有
+- 社内向けMCPサーバーの構築PoC
+- WindsurfとSupabase MCPを連携し開発効率化、ナレッジ共有
 
 **使用技術**:
 - **言語**: TypeScript
 - **OS/DB**: PostgreSQL
-- **FW/MW**: Supabase, Supabase Storage, NextJS, React
+- **FW/MW**: Supabase, Supabase Storage, Next.js, React
 - **UI/CSS**: TailwindCSS, shadcn/ui
 - **テスト**: Bun, Playwright, PHPUnit
 
@@ -173,7 +184,7 @@ title: スキルシート
 **規模**: 2名  
 
 **業務内容**:  
-- 既存機能のキャッチアップ(Flutter WebをNextJSに移行)
+- 既存機能のキャッチアップ（Flutter WebをNext.jsに移行）
 - 画面設計
 - レスポンシブデザイン
 - 追加機能の設計、実装
@@ -181,13 +192,13 @@ title: スキルシート
 - PHPUnitのテスト提案、導入
 - Cursor, Windsurfのルール整備、共有。使い方のナレッジ共有
 - Supabase Storageによる期限付きURLの発行、画像表示
-- shadcn/uiのPOC、導入
+- shadcn/uiのPoC、導入
 - リリース計画の立案
 
 **使用技術**:
 - **言語**: PHP, TypeScript
 - **OS/DB**: PostgreSQL
-- **FW/MW**: Supabase, Supabase Storage, Laravel API, NextJS, React
+- **FW/MW**: Supabase, Supabase Storage, Laravel API, Next.js, React
 - **UI/CSS**: TailwindCSS, shadcn/ui
 - **テスト**: Jest, Playwright, PHPUnit
 
@@ -223,7 +234,7 @@ title: スキルシート
 **使用技術**:
 - **言語**: HTML, CSS, JavaScript, PHP
 - **OS/DB**: MySQL
-- **FW/MW**: Laravel, Google Cloud, playwright, Apache Bench
+- **FW/MW**: Laravel, Google Cloud, Playwright, Apache Bench
 - **ツール**: -
 
 **担当工程**: 要件定義、基本設計、詳細設計、実装、テスト
@@ -296,7 +307,7 @@ title: スキルシート
 - ログイン画面作成  
 - アンケート機能作成  
 - 位置レッスン機能作成  
-- google mapの組み込み、スタジオ一覧表示
+- Google Mapsの組み込み、スタジオ一覧表示
 
 **使用技術**:
 - **言語**: PHP, Dart
@@ -383,8 +394,8 @@ CMS + AWS LambdaのJamstackで構築
 
 **使用技術**:
 - **言語**: HTML, CSS, JavaScript, Node.js, Perl
-- **OS/DB**: CentOS6, MySQL
-- **FW/MW**: Movable Type 7, AWS/EC2、S3、ALB
+- **OS/DB**: CentOS 6, MySQL
+- **FW/MW**: Movable Type 7, AWS (EC2, S3, ALB)
 - **ツール**: -
 
 **担当工程**: 要件定義、基本設計、詳細設計、実装、テスト
@@ -424,7 +435,7 @@ CMS + AWS LambdaのJamstackで構築
 **使用技術**:
 - **言語**: PHP, HTML, SCSS, TypeScript
 - **OS/DB**: Amazon Linux 2, MariaDB
-- **FW/MW**: jQuery, AWS/EC2、S3、ALB
+- **FW/MW**: jQuery, AWS (EC2, S3, ALB)
 - **ツール**: -
 
 **担当工程**: 基本設計、詳細設計、実装、テスト
@@ -442,7 +453,7 @@ CMS + AWS LambdaのJamstackで構築
 
 **使用技術**:
 - **言語**: PHP, Perl, HTML, CSS, JavaScript
-- **OS/DB**: CentOS6, MySQL
+- **OS/DB**: CentOS 6, MySQL
 - **FW/MW**: 独自フレームワーク
 - **ツール**: -
 
@@ -461,7 +472,7 @@ CMS + AWS LambdaのJamstackで構築
 
 **使用技術**:
 - **言語**: PHP
-- **OS/DB**: Ubuntu18.04, MySQL
+- **OS/DB**: Ubuntu 18.04, MySQL
 - **FW/MW**: Laravel, Vue.js
 - **ツール**: -
 
@@ -480,7 +491,7 @@ CMS + AWS LambdaのJamstackで構築
 
 **使用技術**:
 - **言語**: Ruby
-- **OS/DB**: CentOS7, PostgreSQL
+- **OS/DB**: CentOS 7, PostgreSQL
 - **FW/MW**: -
 - **ツール**: -
 
