@@ -56,6 +56,7 @@ title: スキルシート
 | UIコンポーネント | shadcn/ui | 2年 |
 | BaaS | Supabase | 2年 |
 | モバイル | Flutter | 1年 |
+| モバイル | React Native | 0.5 ~ 1年 |
 
 ### AIツール
 
@@ -85,6 +86,19 @@ title: スキルシート
 - 各種AIツールの使用、最新技術のキャッチアップ
 - 個人開発でVertex AI Searchの検証PoC
 
+## 個人開発
+
+### ブックマーク共有アプリ「Bukuma」
+**概要**: ブックマークを簡単に共有・管理できるモバイルアプリ  
+**期間**: 開発中  
+**状態**: App Store Connect審査通過済み、近日リリース予定  
+**技術スタック**: React Native, TypeScript, Supabase  
+**URL**: https://bukuma-web.vercel.app/  
+**特徴**:
+- クロスプラットフォーム対応（iOS/Android）
+- リアルタイム同期機能
+- Supabase Anonymous Sign-Insによるゲストユーザーログイン対応
+ 
 <br>
 
 ---
