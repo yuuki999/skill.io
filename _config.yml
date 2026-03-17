@@ -1,5 +1,6 @@
 theme: jekyll-theme-minimal
-title: 糸井 友貴 (29歳)
+title: 糸井 友貴
+birth_date: "1996-01-01"  # 生年月日（正確な日付に変更してください）
 lang: ja
 encoding: UTF-8
 description: スキルシート・職務経歴書
